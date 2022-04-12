@@ -1,14 +1,23 @@
-# Sample Snack app
+# Task Timer
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+A simple React Native project built on an Expo Snack that helps you focus on a specific task at hand for up to 20 minutes (at the moment). The first step is to input the task to be focused on, then trasitioning to deciding on how long to focus on the task. It uses preset timers to quickly setup your focus session that can be paused or played at any moment during the focus session. 
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.io/get-started/installation).
+The app can store all of your focus sessions and renders them everytime you open up the app (until you decide to clear the history) using the devices local storage. The task history is displayed in a different colour depending on whether the task was initially completed or was cancelled prior to the timer running out.
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+## What I learnt
+The app has taught me the following React Native concepts:
+- Handling state
+- Component design
+- Implementing local storage
+- Conditional rendering
+- JavaScript shortcircuting
+- Styling using Flex
+- Handling side effects
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io/c/snack).
+## Next stages
+What I plan on doing further for this app:
+- Implement custom time functionality
+- Change the Status Bar colour
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
-
-
-https://snack.expo.dev/@kxdammo/focustime
+## View the app here
+Click [here to view](https://snack.expo.dev/@kxdammo/focustime) the Snack.
