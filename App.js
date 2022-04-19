@@ -13,7 +13,7 @@ export default function App() {
   const [focusSubject, setFocusSubject] = useState(null);
   const [focusHistory, setFocusHistory] = useState([]);
 
-  // Sread the `focusHistory` to the new array to make sure
+  // Spread the `focusHistory` to the new array to make sure
   // the data is preserved across renders. Add an object to the array
   // that saves the `focusSubject` and the session's `status`
   const addFocusHistorySubjectWithStatus = (subject, status) => {
