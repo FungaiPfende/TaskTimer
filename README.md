@@ -18,6 +18,7 @@ The app has taught me the following React Native concepts:
 What I plan on doing further for this app:
 - Implement custom time functionality
 - Change the Status Bar colour
+- Make the switch from input to timer screen smoother (remove the need to press enter)
 
 ## View the app here
 Click [here to view](https://snack.expo.dev/@kxdammo/focustime) the Snack.
